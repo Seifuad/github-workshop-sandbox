@@ -62,7 +62,6 @@ In the browser there is no push step. A commit made on github.com is already on 
 5. Merge one change through a pull request that closes one of the issues.
 6. Tag a release called `v0.1.0`.
 
-The usage guide explains each step: [usage guide link].
 
 **Where to get help**
 
