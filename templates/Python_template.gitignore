@@ -1,0 +1,40 @@
+# Files listed here are never uploaded to GitHub.
+# Save this file as ".gitignore" in the top folder of your project.
+
+# Passwords and keys - never share these
+.env
+*.key
+*.pem
+credentials.*
+secrets.*
+
+# Data - keep large or sensitive data out of GitHub.
+# Delete these lines only if your data is small and safe to share.
+data/
+*.zip
+*.tif
+*.nc
+
+# Results that your code can create again
+outputs/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Your computer and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

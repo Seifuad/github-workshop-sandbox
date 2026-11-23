@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "GitHub workshop sandbox: Traceable Research Workflows with GitHub"
+authors:
+  - family-names: Jolaiya
+    given-names: Emmanuel
+    email: E.Jolaiya@cgiar.org
+    affiliation: "International Water Management Institute (IWMI)"
+repository-code: "https://github.com/iwmihq/github-workshop-sandbox"
+license: MIT

@@ -1,0 +1,62 @@
+# Files listed here are never uploaded to GitHub.
+# Each group below has a heading that says what it is for.
+
+# Passwords, keys and other secrets - never share these
+.env
+.env.*
+.Renviron
+*.pem
+*.key
+credentials.*
+secrets.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Jupyter notebooks - automatic backup copies
+.ipynb_checkpoints/
+
+# QGIS - temporary and backup files
+*.qgs~
+*.qgz~
+*.gpkg-wal
+*.gpkg-shm
+
+# ArcGIS - lock files and backups
+*.sr.lock
+*.rd.lock
+*.wr.lock
+*.ed.lock
+.backups/
+
+# Extra files that QGIS and ArcGIS create next to rasters
+*.aux.xml
+
+# Your computer - files the operating system creates
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# Editors
+.vscode/
+.idea/
+
+# Large data - link to it in the README instead of storing it here.
+# Remove the "#" in front of a line to switch it on.
+# *.tif
+# *.nc
+# *.zip
